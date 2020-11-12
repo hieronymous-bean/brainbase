@@ -1,5 +1,6 @@
-// Color Configuration Options //
-// Update color codes to customize default values for various hues //
+// ------------------------------
+// Grayscale Config
+
 $white:    #ffffff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -27,6 +28,12 @@ $grays: map-merge(
   ),
   $grays
 );
+
+// ------------------------------
+
+
+// ------------------------------
+// Color Definitions
 
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
@@ -83,19 +90,12 @@ $theme-colors: map-merge(
   $theme-colors
 );
 
-$theme-gradient-colors: (
-  primary:         linear-gradient(230deg, #759bff, #843cf6),
-  secondary:       linear-gradient(to right, #e7ebf0, #868e96),
-  success:         linear-gradient(45deg, #7bffce, #30c93e),
-  info:            linear-gradient(to bottom, #0e4cfd, #6a8eff),
-  warning:         linear-gradient(135deg, #ffc480, #ff763b),
-  danger:          linear-gradient(316deg, #fc5286, #fbaaa2),
-  light:           linear-gradient(to right, #cfd9df 0%, #e2ebf0 100%),
-  dark:            linear-gradient(to right, #7d7979 0%, #000000 100%)
-);
+// ------------------------------
 
-$content-bg: #f9fafb;
-$border-color: #e8ebf1;
+
+
+// ------------------------------
+// Social Media Colors
 
 $social-colors: (
   twitter: #2caae1,
@@ -110,3 +110,39 @@ $social-colors: (
   reddit: #ff4500,
   instagram: #fb3958
 );
+
+// ------------------------------
+
+
+
+// ------------------------------
+// Preset Themes
+
+$theme-locksmith: (
+  primary:         #CC0000,
+  secondary:       #1A1552,
+  success:         #289c28,
+  info:            #217ae2,
+  warning:         #eec201,
+  danger:          #cc0000,
+  light:           #F5F5F5,
+  darkgray:        #222222,
+  dark:            #000000,
+
+  content-bg:      #f9fafb,
+  border-color:    #e8ebf1
+);
+
+$theme-triage: (
+
+);
+
+$theme-pacific: (
+
+);
+
+$theme-ranchhand: ( 
+
+);
+
+// ------------------------------
